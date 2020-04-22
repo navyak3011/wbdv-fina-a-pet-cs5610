@@ -1,66 +1,27 @@
-# FinalProject - Petfinder
+# Angular
 
-# Steps to run this Angular project locally:
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.6.
 
-1. clone server from - https://github.ccs.neu.edu/navyak/CS5610-webdev-spring-Project--server
-and run: `WddvProjectApplication` present under src. 
+## Development server
 
-2. clone client from - https://github.ccs.neu.edu/nesaramadhav/Wbdv_5610_Angular_FinalProject_client
-and run it using the command: `ng serve`
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-3. open on browser: http://localhost:4200/
-The app will automatically reload if you change any of the source files.
+## Code scaffolding
 
-# Connection to Database:
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-Host: `wbdv-db.cn1rk0k2w2tu.us-east-2.rds.amazonaws.com`
+## Build
 
-Database: `project`
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
-Username: `admin`
+## Running unit tests
 
-Password: `password`
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-# User and their roles:
- `Username/password`
- 
- 1. Admin: `admin/admin`
- 2. Adopter: `alice/alice`
- 3. Adopter: `bob/bob` 
- 4. Facilitator: `charlie/charlie` 
- 5. Facilitator: `dan/dan`
+## Running end-to-end tests
 
+Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
-# Users and their privileges: 
+## Further help
 
-## `Admin:` 
-<p> 1.can view all users, edit their profiles and delete users.
-       <p> 2. can view all pets, edit their profile and delete pets.
-       <p> 3. can view a listing of users and their adoption status. Can approve/ decline adopter's request to adopt a pet.
-       <p> 4. can search for pets based on different attributes such as pet type, color, gender, age etc.
-       <p> 5. can view pets and request for adopting them
-       <p> 6. can view and edit their profile
-       <p> 7. can view the status of their adoption request.
-       <p> 8. can favourite other pets.
-
-     
-## `Adopter` 
-<p> 1. can search for pets based on different attributes such as pet type, color, gender, age etc.
-        <p> 2. can view pets and request for adopting them
-        <p> 3. can view and edit their profile
-        <p> 4. can view the status of their adoption request
-        <p> 5. can view other user's profile (but, cannot edit other user's profile) and follow them.
-        <p> 6. can favourite other pets.
-
-## `Facilitator`
-<p> 1. can view a listing of users and their adoption status. Can approve/ decline adopter's request to adopt a pet.
-             <p> 2. can search for pets based on different attributes such as pet type, color, gender, age etc.
-             <p> 3. can view pets and request for adopting them
-             <p> 4. can view and edit their profile
-             <p> 5. can view the status of their adoption request
-             <p> 6. can view other user's profile (but, cannot edit other user's profile) and follow them.
-             <p> 7. can favourite other pets.
-             
-# Domain Objects: 
-
-
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).

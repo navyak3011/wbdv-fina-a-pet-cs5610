@@ -1,5 +1,5 @@
 {
-  "name": "final-project",
+  "name": "angular",
   "version": "0.0.0",
   "scripts": {
     "heroku-postbuild": "ng build --prod",
@@ -11,40 +11,39 @@
     "e2e": "ng e2e"
   },
   "engines": {
-    "node": "12.4.0",
-    "npm": "6.9.0"
+    "node": "13.1.0",
+    "npm": "6.12.1"
   },
   "private": true,
   "dependencies": {
-    "@angular/animations": "~9.1.0",
-    "@angular/cdk": "^9.2.0",
-    "@angular/cli": "^9.1.0",
-    "@angular/common": "~9.1.0",
-    "@angular/compiler": "~9.1.0",
-    "@angular/compiler-cli": "^9.1.0",
-    "@angular/core": "~9.1.0",
-    "@angular/flex-layout": "^9.0.0-beta.29",
-    "@angular/forms": "~9.1.0",
-    "@angular/localize": "^9.1.2",
-    "@angular/material": "^9.2.0",
-    "@angular/platform-browser": "~9.1.0",
-    "@angular/platform-browser-dynamic": "~9.1.0",
-    "@angular/router": "~9.1.0",
-    "@ng-bootstrap/ng-bootstrap": "^6.0.3",
+    "@angular/animations": "~9.0.6",
+    "@angular/cli": "^9.1.1",
+    "@angular/common": "~9.0.6",
+    "@angular/compiler": "~9.0.6",
+    "@angular/compiler-cli": "^9.0.7",
+    "@angular/core": "~9.0.6",
+    "@angular/forms": "~9.0.6",
+    "@angular/platform-browser": "~9.0.6",
+    "@angular/platform-browser-dynamic": "~9.0.6",
+    "@angular/router": "~9.0.6",
+    "@fortawesome/angular-fontawesome": "^0.6.1",
+    "@fortawesome/fontawesome-svg-core": "^1.2.28",
+    "@fortawesome/free-brands-svg-icons": "^5.13.0",
+    "@fortawesome/free-regular-svg-icons": "^5.13.0",
+    "@fortawesome/free-solid-svg-icons": "^5.13.0",
     "bootstrap": "^4.4.1",
     "express": "^4.17.1",
-    "ionic-native": "^2.9.0",
     "path": "^0.12.7",
-    "rxjs": "~6.5.5",
+    "rxjs": "~6.5.4",
     "tslib": "^1.10.0",
     "typescript": "~3.7.5",
     "zone.js": "~0.10.2"
   },
   "devDependencies": {
-    "@angular-devkit/build-angular": "~0.900.4",
+    "@angular-devkit/build-angular": "~0.900.6",
     "@angular/cli": "^9.1.1",
-    "@angular/compiler-cli": "^9.1.1",
-    "@angular/language-service": "~9.1.0",
+    "@angular/compiler-cli": "^9.0.7",
+    "@angular/language-service": "~9.0.6",
     "@types/jasmine": "~3.5.0",
     "@types/jasminewd2": "~2.0.3",
     "@types/node": "^12.11.1",
@@ -60,14 +59,5 @@
     "ts-node": "~8.3.0",
     "tslint": "~5.18.0",
     "typescript": "~3.7.5"
-  },
-  "description": "This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.6.",
-  "main": "karma.conf.js",
-  "repository": {
-    "type": "git",
-    "url": "https://github.ccs.neu.edu/nesaramadhav/Wbdv_5610_Angular_FinalProject_client.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  }
 }
